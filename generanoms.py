@@ -1,5 +1,4 @@
-#! /usr/bin/env python
-# encoding: utf-8
+#! /usr/bin/env python3
 #
 # Generador aleatòri de noms "creïbles"
 # Pressuposa l'existència dels fitxers: noms.dat i cognoms.dat
@@ -112,7 +111,7 @@ def main():
         n = 10
     generador = GeneradorNoms()
     for i in range(n):
-        print generador.genera_nom_cognoms()
+        print(generador.genera_nom_cognoms())
     return 0
 #
 if __name__=="__main__":
